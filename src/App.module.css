@@ -1,4 +1,4 @@
-.s1{
+.s1 {
     background-image: url('/senai.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -6,4 +6,59 @@
     background-attachment: fixed;
     min-height: 100vh;
     height: auto;
+}
+
+.s2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left {
+    width: 400px;
+}
+
+.left img {
+    box-shadow: 0px 3px 10px black;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.right {
+    width: 500px;
+    min-width: 300px;
+
+}
+
+.s3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 8px;
+}
+
+@media (width <=1000px) {
+    .left img {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .s1 {
+        background-image: url('/bgMobile.jpg');
+    }
 }

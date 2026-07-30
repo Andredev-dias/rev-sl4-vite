@@ -23,9 +23,9 @@ function App() {
         <section id='s1' className={s.s1}>
         </section>
 
-        <section id='s2'>
+        <section id='s2' className={s.s2}>
             <div className={s.left}>
-              <img width={400} src={banner} alt="" />
+              <img src={banner} alt="" />
             </div>
             <div className={s.right}>
               <h2>Subtítulo</h2>
@@ -33,7 +33,7 @@ function App() {
             </div>
         </section>
 
-        <section id='s3'>
+        <section id='s3' className={s.s3}>
               <div className={s.card}>
                 <img width={400} src={card01} alt="" />
                 <div className={s.cardTexts}>
